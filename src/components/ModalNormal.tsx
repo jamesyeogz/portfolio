@@ -1,9 +1,10 @@
 import { Icon } from "@iconify/react";
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Threeimage from "../Reactthree/threeimage";
 import { ContainerP, DescriptionSmall, SmallSpan } from "../styles/General";
 import {
   Content,
+  Content_Modal_P,
   Img_fit,
   InfoWrap,
   Line,
@@ -16,19 +17,21 @@ const ModalNormal = (props: any) => {
   const [Clicked, isClicked] = useState<any>(null);
   const contentTitle = props.title;
   const contentinfo = props.info;
-  var image_static: string = '';
+  var image_static: string = "";
   if (props.hasOwnProperty("img")) {
-    image_static = props.img
+    image_static = props.img;
   }
-  
+
   return (
     <Modal_Container_Content>
       <Modal_ReactThree>
         {props.usethree ? (
           <Threeimage isClicked={isClicked} Clicked={Clicked} />
-        ) : Clicked?<Img_fit src={Clicked.image} />:<Img_fit src={image_static} />
-        
-        }
+        ) : Clicked ? (
+          <Img_fit src={Clicked.image} />
+        ) : (
+          <Img_fit src={image_static} />
+        )}
       </Modal_ReactThree>
       <Content>
         <Wrapper>
@@ -59,16 +62,7 @@ const ModalNormal = (props: any) => {
                   ) : null}
                 </InfoWrap>
               ) : (
-                <ContainerP
-                  style={{
-                    textAlign: "start",
-                    padding: "25px",
-                    maxWidth: "70%",
-                    margin: 0,
-                  }}
-                >
-                  {content.paragraph}
-                </ContainerP>
+                <Content_Modal_P>{content.paragraph}</Content_Modal_P>
               )}
               {content.duration ? (
                 <SmallSpan

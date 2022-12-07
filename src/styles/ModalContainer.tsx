@@ -12,7 +12,6 @@ export const Modal_Container_Content = styled.div`
   }
   @media ${device.tablet} {
     flex-direction: column;
-
   }
   @media ${device.laptop} {
     flex-direction: row;
@@ -32,7 +31,6 @@ export const Modal_ReactThree = styled.div`
   }
   @media ${device.tablet} {
     width: 100%;
-
   }
   @media ${device.laptop} {
     width: 50%;
@@ -50,10 +48,9 @@ export const Content = styled.div`
   }
   @media ${device.tablet} {
     width: 100%;
-
   }
   @media ${device.laptop} {
-    width:50%;
+    width: 50%;
   }
 `;
 export const Wrapper = styled.div`
@@ -111,9 +108,19 @@ export const InfoWrap = styled.div`
 
 export const Img_fit = styled.img`
   margin: 25px;
-  width: 80%;
-  height: 80%;
   object-fit: contain;
+  @media ${device.mobileS} {
+    width: 80%;
+    height: 40%;
+  }
+  @media ${device.tablet} {
+    width: 80%;
+    height: 40%;
+  }
+  @media ${device.laptop} {
+    width: 80%;
+    height: 80%;
+  }
 `;
 export const Content_Modal_P = styled.div`
   width: 100%;
@@ -123,7 +130,7 @@ export const Content_Modal_P = styled.div`
   margin: 0;
   @media ${device.mobileS} {
     font-size: ${Fontsize.span.ss};
-    padding:5px;
+    padding: 5px;
   }
   @media ${device.tablet} {
     font-size: ${Fontsize.span.sm};
