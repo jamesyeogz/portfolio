@@ -32,10 +32,10 @@ export const Box = (props) => {
 export const Certificate = ({Image, Logo}) => {
   const mesh = useRef(null);
   const textures = useTexture([
-    "portfolio/images/texture.jpg",
-    "portfolio/images/texture.jpg",
-    "portfolio/images/texture.jpg",
-    "portfolio/images/texture.jpg",
+    "/portfolio/images/texture.jpg",
+    "/portfolio/images/texture.jpg",
+    "/portfolio/images/texture.jpg",
+    "/portfolio/images/texture.jpg",
     Image,
     Logo,
   ]);

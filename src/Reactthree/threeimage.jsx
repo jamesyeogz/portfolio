@@ -5,8 +5,8 @@ import { AmbientLight } from "three";
 import { Certificate, Charmander, Setting } from "./Box";
 
 const Threeimage = ({ Clicked, isClicked }) => {
-  const [Image, setImage] = useState("portfolio/images/Udemy.jpg");
-  const [Logo, setLogo]= useState("portfolio/images/LogoUdemy.png");
+  const [Image, setImage] = useState("/portfolio/images/Udemy.jpg");
+  const [Logo, setLogo]= useState("/portfolio/images/LogoUdemy.png");
   useEffect(() => {
     if (Clicked) {
       setImage(Clicked.image);

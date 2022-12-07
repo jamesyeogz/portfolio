@@ -30,8 +30,8 @@ const Projects = () => {
         { icon: "tabler:brand-redux", name: "Redux" },
       ],
       url: '',
-      github: 'github.com',
-      image:'portfolio/images/Ecommerce.png',
+      github: 'https://github.com',
+      image:'/portfolio/images/Ecommerce.png',
       light:false
     },
     {
@@ -46,7 +46,7 @@ const Projects = () => {
         { icon: "akar-icons:html-fill", name: "HTML" },
       ],
       url: "https://business.panasonic.sg/",
-      image:'portfolio/images/ToF.png'
+      image:'/portfolio/images/ToF.png'
     },
     {
       title: "Project Life Cycle",
@@ -58,7 +58,7 @@ const Projects = () => {
         { icon: "mdi:docker", name: "Docker" },
       ],
       url: "https://sg.nec.com/",
-      image: 'portfolio/images/Lidar.png'
+      image: '/portfolio/images/Lidar.png'
     },
     {
       title: "SISP for Panasonic",
@@ -71,7 +71,7 @@ const Projects = () => {
         { icon: "mdi:react", name: "React" },
       ],
       url: "https://business.panasonic.sg/",
-      image:'portfolio/images/SISP.jpg'
+      image:'/portfolio/images/SISP.jpg'
     },
     {
       title: "Blockchain DIP Project",
@@ -85,7 +85,7 @@ const Projects = () => {
       ],
       url: "https://dip-navy.vercel.app/",
       github:'https://github.com/jamesyeogz/DIP',
-      image:'portfolio/images/DIP.png',
+      image:'/portfolio/images/DIP.png',
     }
   ];
   return (

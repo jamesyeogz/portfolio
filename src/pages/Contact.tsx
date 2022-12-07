@@ -72,7 +72,7 @@ const Contact = () => {
         <Contact_Wrapper style={{ flexDirection: "row" }}>
           <Contact_Copy>
             <a
-              href="images\James Yeo Gui Zhong CV.pdf"
+              href="/portfolio/images/James Yeo Gui Zhong CV.pdf"
               style={{ textDecoration: "none" }}
             >
               <Subheading>Resume Download</Subheading>
