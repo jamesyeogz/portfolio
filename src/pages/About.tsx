@@ -17,7 +17,7 @@ import {
 const About = () => {
   const jobs_content ={
     title:'Jobs',
-    img:'/portfolio/images/Testimonial.jpg',
+    img:'/portfolio/images/Testimonial.JPG',
     info: [
       {
         certificate: "Panasonic R&D Internship",
@@ -27,7 +27,7 @@ const About = () => {
       {
         certificate: "NEC Summer Internship",
         duration:'May 2021 - July 2021',
-        image: "/portfolio/images/Testimonial.jpg",
+        image: "/portfolio/images/Testimonial.JPG",
       }]
   }
   const about_content = {
