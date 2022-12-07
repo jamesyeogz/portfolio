@@ -1,0 +1,11 @@
+Model Information:
+* title:	Charmander(Pokemon)
+* source:	https://sketchfab.com/3d-models/charmanderpokemon-8a096cdfc20b4d3099ddedafc7ff107a
+* author:	Patrickart.hk (https://sketchfab.com/Patrickart.hk)
+
+Model License:
+* license type:	CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions can not be distributed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Charmander(Pokemon)" (https://sketchfab.com/3d-models/charmanderpokemon-8a096cdfc20b4d3099ddedafc7ff107a) by Patrickart.hk (https://sketchfab.com/Patrickart.hk) licensed under CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
