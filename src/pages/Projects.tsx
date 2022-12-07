@@ -19,7 +19,7 @@ import CaseStudy from "../components/CaseStudy";
 const Projects = () => {
   const projects = [
     {
-      title:'React Ecommerce Website With Django',
+      title:'React Django Ecommerce',
       index: "1",
       description:
       "Create a Ecommerce Website with Dennis Ivy Course to be familiar with the Use of Redux and Reactjs",

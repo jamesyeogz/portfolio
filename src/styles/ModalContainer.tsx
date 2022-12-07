@@ -115,3 +115,25 @@ export const Img_fit = styled.img`
   height: 80%;
   object-fit: contain;
 `;
+export const Content_Modal_P = styled.div`
+  width: 100%;
+  color: white;
+  text-align: start;
+  max-width: 70%;
+  margin: 0;
+  @media ${device.mobileS} {
+    font-size: ${Fontsize.span.ss};
+    padding:5px;
+  }
+  @media ${device.tablet} {
+    font-size: ${Fontsize.span.sm};
+  }
+  @media ${device.laptop} {
+    font-size: ${Fontsize.span.m};
+    padding: 25px;
+    height: 15%;
+  }
+  @media ${device.laptopL} {
+    font-size: ${Fontsize.span.l};
+  }
+`;
