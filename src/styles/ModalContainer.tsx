@@ -27,6 +27,7 @@ export const Modal_ReactThree = styled.div`
   justify-content: center;
   align-items: center;
   @media ${device.mobileS} {
+    /* justify-content: flex-start; */
     width: 100%;
   }
   @media ${device.tablet} {
@@ -107,29 +108,30 @@ export const InfoWrap = styled.div`
 `;
 
 export const Img_fit = styled.img`
-  margin: 25px;
   object-fit: contain;
   @media ${device.mobileS} {
-    width: 80%;
-    height: 40%;
+    width: 50%;
+    height: 100%;
   }
   @media ${device.tablet} {
-    width: 80%;
-    height: 40%;
+    width: 50%;
+    height: 100%;
+    margin: 15px;
   }
   @media ${device.laptop} {
     width: 80%;
     height: 80%;
+    margin: 25px;
   }
 `;
 export const Content_Modal_P = styled.div`
-  width: 100%;
+  /* width: 100%; */
   color: white;
   text-align: start;
   max-width: 70%;
   margin: 0;
   @media ${device.mobileS} {
-    font-size: ${Fontsize.span.ss};
+    font-size: ${Fontsize.span.sm};
     padding: 5px;
   }
   @media ${device.tablet} {

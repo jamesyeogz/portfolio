@@ -29,8 +29,8 @@ const Projects = () => {
         { icon: "mdi:react", name: "React" },
         { icon: "tabler:brand-redux", name: "Redux" },
       ],
-      url: '',
-      github: 'https://github.com',
+      url: 'https://demoshop-pro.herokuapp.com/',
+      github: 'https://github.com/jamesyeogz/proshop',
       image:'/portfolio/images/Ecommerce.png',
       light:false
     },

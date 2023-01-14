@@ -176,7 +176,7 @@ export const TrapezoidContainer = styled.div`
 `;
 export const Trapezoid = styled.div<any>`
   @media ${device.mobileS} {
-    width: 100%;
+    width: 80%;
     height: 100%;
   }
   @media ${device.laptop} {
