@@ -148,17 +148,18 @@ export const SmallSpan = styled.div<any>`
 `;
 export const HeroContent = styled.div<any>`
   @media ${device.mobileS} {
-    width: 100%;
+    width: 90%;
     height: 50%;
   }
   @media ${device.laptop} {
+    padding-left: 10vw;
     height: 100%;
     width: 30%;
   }
   display: flex;
   flex-direction: column;
   /* padding here nids to be adjusted definitely */
-  padding-left: 10vw;
+  
   justify-content: center;
   align-items: flex-start;
   background-color: white;
