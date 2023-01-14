@@ -17,7 +17,7 @@ import {
 
 const About = () => {
   const jobs_content ={
-    title:'Jobs',
+    title:'Internships',
     img:'/portfolio/images/Testimonial.JPG',
     info: [
       {

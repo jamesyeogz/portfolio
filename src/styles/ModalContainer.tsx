@@ -29,9 +29,12 @@ export const Modal_ReactThree = styled.div`
   @media ${device.mobileS} {
     /* justify-content: flex-start; */
     width: 100%;
+    height:50%;
+    padding:4px;
   }
   @media ${device.tablet} {
     width: 100%;
+    height:100%;
   }
   @media ${device.laptop} {
     width: 50%;
@@ -109,13 +112,8 @@ export const InfoWrap = styled.div`
 export const Img_fit1 = styled.img`
   object-fit: cover;
   @media ${device.mobileS} {
-    width: 50%;
+    width: 90%;
     height: 100%;
-  }
-  @media ${device.tablet} {
-    width: 50%;
-    height: 100%;
-    margin: 15px;
   }
   @media ${device.laptop} {
     width: 80%;

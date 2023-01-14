@@ -30,9 +30,9 @@ const ModalNormal = (props: any) => {
           <Threeimage isClicked={isClicked} Clicked={Clicked} />
         ) : Clicked ? (
           <Img_fit src={Clicked.image} />
-        ) : (
-          <Img_fit1 src={image_static} />
-        )}
+        ) : props.title == 'Internships' ? (
+          <Img_fit src={image_static} />
+        ):<Img_fit1 src={image_static} />}
       </Modal_ReactThree>
       <Content>
         <Wrapper>
