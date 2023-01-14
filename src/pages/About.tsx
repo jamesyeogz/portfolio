@@ -14,6 +14,7 @@ import {
   Title,
 } from "../styles/General";
 
+
 const About = () => {
   const jobs_content ={
     title:'Jobs',
@@ -64,18 +65,19 @@ const About = () => {
     info: [
       {
         paragraph:
-          "I am a Self Taught Software Developer with a Year of Experience in the IT industry"
+          <h4>Hi My name is James! (right person)</h4>,
       },
       {
         paragraph:
-          "I am most efficient in integrating new products into applications, with mostly python as my backend. I am familiar with Flask and Django for python",
+          "I am a Self Taught Software Developer and a Graduate in Electrical and Electronics Engineering"
       },
       {
         paragraph:
-          "I do have much exposure in machine learning in school and my projects. With Tensorflow as my main library, I use mainly Neural Network as my main model to train and test results",
+          "My hobbies are mostly travelling and platying sports such as Badminton",
       },
+
     ],
-    img: "/portfolio/images/Udemy.jpg",
+    img: "/portfolio/images/profile.jpg",
   };
   return (
     <Container>

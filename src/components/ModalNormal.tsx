@@ -6,6 +6,7 @@ import {
   Content,
   Content_Modal_P,
   Img_fit,
+  Img_fit1,
   InfoWrap,
   Line,
   Modal_Container_Content,
@@ -30,7 +31,7 @@ const ModalNormal = (props: any) => {
         ) : Clicked ? (
           <Img_fit src={Clicked.image} />
         ) : (
-          <Img_fit src={image_static} />
+          <Img_fit1 src={image_static} />
         )}
       </Modal_ReactThree>
       <Content>

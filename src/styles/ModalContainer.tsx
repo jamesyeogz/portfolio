@@ -106,7 +106,23 @@ export const InfoWrap = styled.div`
     transition: 0.3s ease-in;
   }
 `;
-
+export const Img_fit1 = styled.img`
+  object-fit: cover;
+  @media ${device.mobileS} {
+    width: 50%;
+    height: 100%;
+  }
+  @media ${device.tablet} {
+    width: 50%;
+    height: 100%;
+    margin: 15px;
+  }
+  @media ${device.laptop} {
+    width: 80%;
+    height: 80%;
+    margin: 25px;
+  }
+`;
 export const Img_fit = styled.img`
   object-fit: contain;
   @media ${device.mobileS} {
@@ -128,7 +144,7 @@ export const Content_Modal_P = styled.div`
   /* width: 100%; */
   color: white;
   text-align: start;
-  max-width: 70%;
+  max-width: 80%;
   margin: 0;
   @media ${device.mobileS} {
     font-size: ${Fontsize.span.sm};
@@ -139,8 +155,8 @@ export const Content_Modal_P = styled.div`
   }
   @media ${device.laptop} {
     font-size: ${Fontsize.span.m};
-    padding: 25px;
-    height: 15%;
+    padding: 10px;
+    height: 10%;
   }
   @media ${device.laptopL} {
     font-size: ${Fontsize.span.l};
