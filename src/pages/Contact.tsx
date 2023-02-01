@@ -56,7 +56,7 @@ const Contact = () => {
             <Icon
               icon="mdi:linkedin"
               height="100"
-              style={{ margin: "0 25px 0 25px" }}
+              style={{ margin: "0 15px 0 15px" }}
             />
           </a>
           <a href=" https://www.instagram.com/nubjames/?hl=en" style={{color:'white'}}>
@@ -64,7 +64,7 @@ const Contact = () => {
             <Icon
               icon="mdi:instagram"
               height="100"
-              style={{ margin: "0 25px 0 25px" }}
+              style={{ margin:  "0 15px 0 15px" }}
             />
           </a>
         </Contact_Wrapper>

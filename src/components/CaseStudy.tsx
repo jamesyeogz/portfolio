@@ -9,7 +9,8 @@ const Case_Container = styled.div<any>`
   background-repeat: no-repeat;
   background-size: cover;
   padding: 25px;
-  height: 50vh;
+  height:auto;
+  min-height:50vh;
   border-style: solid;
   border-color: white;
   display: flex;

@@ -411,7 +411,7 @@ export const Footer = styled.div`
   justify-content: center;
   align-items: center;
   height: 2vh;
-  width: 100%;
+  width: auto;
   padding: 5px;
   background-color: black;
   color: white;
@@ -427,7 +427,13 @@ export const Copied_Logo = styled(motion.div)<any>`
 `;
 
 export const HeroLogo = styled.div`
-margin:25px;
+  @media ${device.mobileS} {
+    margin:15px;
+  }
+  @media ${device.tablet} {
+    margin:25px;
+  }
+
   position: absolute;
   z-index:10;
   left: 0;
