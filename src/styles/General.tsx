@@ -177,7 +177,7 @@ export const TrapezoidContainer = styled.div`
 `;
 export const Trapezoid = styled.div<any>`
   @media ${device.mobileS} {
-    width: 80%;
+    width: 78.5%;
     height: 100%;
   }
   @media ${device.laptop} {
@@ -264,6 +264,7 @@ export const ModalBefore = styled(motion.button)`
 `;
 export const ContainerCard = styled.div`
   width: clamp(273px * 1.5, 273px, 90vw);
+  max-width:90vw;
   height: clamp(354px * 1.5, 354px, 50vh);
   background-color: black;
   color: black;
