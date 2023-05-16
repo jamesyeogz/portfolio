@@ -19,8 +19,25 @@ import CaseStudy from "../components/CaseStudy";
 const Projects = () => {
   const projects = [
     {
-      title:'React Django Ecommerce',
+      title:'T3 Stack Social Media App',
       index: "1",
+      description:
+      "Created a T3 Scalable Application for Exploration with Serverless Database and T3 Application",
+      skills: [
+        { icon: "mdi:language-typescript", name: "Typescript" },
+        { icon: "tabler:brand-prisma", name: "Prisma" },
+        { icon: "logos:trpc", name: "tRPC" },
+        { icon: "tabler:brand-nextjs", name: "NextJs" },
+        { icon: "tabler:brand-planetscale", name: "PlanetScale" },
+      ],
+      url: 'https://social-app-orcin.vercel.app/',
+      github: 'https://github.com/jamesyeogz/social_app',
+      image:'/portfolio/images/Social_Media.PNG',
+      light:false
+    },
+    {
+      title:'React Django Ecommerce',
+      index: "2",
       description:
       "Create a Ecommerce Website with Dennis Ivy Course to be familiar with the Use of Redux and Reactjs",
       skills: [
@@ -36,7 +53,7 @@ const Projects = () => {
     },
     {
       title: "Project for Tracking Human movements",
-      index: "2",
+      index: "3",
       description:
         "Track Humans movements in an area with the ToF Sensors provided by Pansonic. Project was built in Panasonic",
       skills: [
@@ -50,7 +67,7 @@ const Projects = () => {
     },
     {
       title: "Project Life Cycle",
-      index: "3",
+      index: "4",
       description:
         "With Lidar Sensors, we helped to integrate the sensors to real life applications such as human Surveilence to prevent overcrowd. We updated the application to the cloud. Done in NEC",
       skills: [
@@ -62,7 +79,7 @@ const Projects = () => {
     },
     {
       title: "SISP for Panasonic",
-      index: "4",
+      index: "5",
       description:
         "Built the System Integration System for Panasonic to link sensors easily to one main platform",
       skills: [
@@ -75,7 +92,7 @@ const Projects = () => {
     },
     {
       title: "Blockchain DIP Project",
-      index: "5",
+      index: "6",
       description:
         "Built a Website using Web3 Libraries and Solidity to trade Energy tokens on the website inside the Ethereum Test Network",
       skills: [

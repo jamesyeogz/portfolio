@@ -128,7 +128,7 @@ const Skill = styled.div<any>`
 `
 const CaseStudy = ({index,title,description,skills,url,github,image,light}:any) => {
   return (
-    <Case_Container image={image} light={light}>
+    <Case_Container image={image} light={light} >
       <SmallSpan>0{index}.</SmallSpan>
       <Container_Title>{title}</Container_Title>
       <Skills>
